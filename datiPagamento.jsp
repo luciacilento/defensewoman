@@ -65,14 +65,14 @@
 
 			<tr>
 
-				<td><label for="circuitoCarta" style="margin-top: 20px">Carta:</label></td>
+				<td><label for="circuitoCartaCredito" style="margin-top: 30px">Carta:</label></td>
 				<td class="td2"><input <c:if test="${pagamento.circuitoCarta=='MasterCard'}">checked</c:if> value="MasterCard"
 					type="radio" name="circuitoCarta" style="width: 10px; margin-top: 20px">
 					<label><img src="assets/img/master.png"
 						style="margin-top: 20px"></label> <input <c:if test="${pagamento.circuitoCarta=='Maestro'}">checked</c:if>
 					value="Maestro" type="radio" name="circuitoCarta"
 					style="width: 10px; margin-top: 20px"> <label><img
-						src="assets/img/mae.png" style="margin-top: 20px"></label> <input <c:if test="${pagamento.circuitoCarta=='PayPal'}">checked</c:if>
+						src="assets/img/mae.jpg" style="margin-top: 20px"></label> <input <c:if test="${pagamento.circuitoCarta=='PayPal'}">checked</c:if>
 					value="PayPal" type="radio" name="circuitoCarta"
 					style="width: 10px; margin-top: 20px"> <label><img
 						src="assets/img/p.jpg" style="margin-top: 20px"></label> <input <c:if test="${pagamento.circuitoCarta=='American Express'}">checked</c:if>
